@@ -9,4 +9,4 @@
 [Antd](https://ant.design/)
 
 
-** Want to contribute? Branch rules active, Push your contribution code to branch and request a pull. ** 
+**Want to contribute? Branch rules active, Push your contribution code to branch and request a pull.** 
