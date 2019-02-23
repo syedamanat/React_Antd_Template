@@ -1,30 +1,19 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Layout, Menu, Icon, Affix, Button } from 'antd';
-const { Header, Content, Sider } = Layout;
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
-
+import { Layout, Menu, Icon, Affix, Button } from 'antd';//Add UI components as per need
 
 class App extends React.Component {
-    state = {
-        collapsed: false,
-        top: 10,
-        bottom: 10,
-        current: 'mail',
-
-    };
-
-    toggle = () => {
-        this.setState({
-            collapsed: !this.state.collapsed,
-        });
+    constructor(props){
+        super(props);
+        this.state = {};
     }
+    
 
+    
     render() {
         return (
-            <div></div>
+            <div>Hello World</div>
         );
     }
 }
